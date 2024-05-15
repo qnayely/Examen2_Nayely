@@ -1,0 +1,9 @@
+create table estudiantes(
+	id int(100) not null auto_increment primary key,
+	nombres varchar(100),
+	apellidos varchar(100),
+	seminario varchar(100),
+	confirmado int(1),
+	inscripcion date
+
+)
